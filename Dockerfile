@@ -1,6 +1,6 @@
-WORKDIR home
-
 FROM ubuntu:16.04
+
+RUN git clone https://github.com/jucemarmonteiro/rsyn-x.git
 
 RUN pwd
 
