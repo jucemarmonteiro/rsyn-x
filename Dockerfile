@@ -4,7 +4,11 @@ RUN pwd
 
 RUN ls -ls
 
-RUN ls home
+RUN ls /home
+
+RUN cd /home
+
+RUN ls 
 
 RUN cd rsyn-x/x/bin
 
