@@ -1,4 +1,4 @@
-WORKDIR /home
+WORKDIR home
 
 FROM ubuntu:16.04
 
